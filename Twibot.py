@@ -4,7 +4,7 @@
 # Just a second somment to test Git Bash commit
 
 from selenium import webdriver
-driver = webdriver.Chrome(executable_path="./drivers/chromedriver")
+driver = webdriver.Chrome(executable_path="/drivers/chromedriver")
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
